@@ -1,5 +1,5 @@
-class Student {
-    String name ;
+public class Student { //user defined class
+    String name ; //variable creation
     int age ; 
     String branch ; 
     void display(){
@@ -9,10 +9,9 @@ class Student {
     }
 }
 
-public class Main{
-
+class Main{ //main function creation
 public static void main (String[] args){
-    Student s1 = new Student();
+    Student s1 = new Student(); //Object creation
     s1.name = "Miruthul";
     s1.age = 19;
     s1.branch = "ECE";
