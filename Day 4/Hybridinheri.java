@@ -32,7 +32,7 @@ class E extends A implements B,D{
     }
 }
 
-class Hybridinheri{
+public class Hybridinheri{
     public static void main(String[] args) {
         E abc = new E();
         abc.show();
